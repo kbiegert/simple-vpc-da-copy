@@ -1,0 +1,32 @@
+<mxfile host="Electron" modified="2024-06-19T13:33:55.159Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="Kof3YZz__A2wYsM_5thR" version="24.5.3" type="device">
+  <diagram id="GNU3i8hCxYjH3E0Nk9u4" name="Page-1">
+    <mxGraphModel dx="1114" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rIICsEDAP1GdihtX-TnD-1" value="IBM Cloud" style="shape=mxgraph.ibm.box;prType=cloud;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#4376BB;strokeWidth=3;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="110" width="400" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="rIICsEDAP1GdihtX-TnD-4" value="Resource Group" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#919191;strokeWidth=2;dashed=1;container=1;collapsible=0;expand=0;recursiveResize=0;" parent="rIICsEDAP1GdihtX-TnD-1" vertex="1">
+          <mxGeometry x="30" y="40" width="350" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="rIICsEDAP1GdihtX-TnD-5" value="VPC" style="shape=mxgraph.ibm.box;prType=vpc;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#4376BB;strokeWidth=2;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;" parent="rIICsEDAP1GdihtX-TnD-4" vertex="1">
+          <mxGeometry x="30" y="40" width="290" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="KDQQx_HYrHywPaMqPA1d-1" value="Security Group" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;strokeWidth=2;dashed=1;container=1;collapsible=0;expand=0;recursiveResize=0;" vertex="1" parent="rIICsEDAP1GdihtX-TnD-5">
+          <mxGeometry x="60" y="15" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KDQQx_HYrHywPaMqPA1d-4" value="Zone" style="shape=mxgraph.ibm.box;prType=zone;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=#E0E0E0;rounded=0;whiteSpace=wrap;html=1;strokeColor=#919191;strokeWidth=1;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;" vertex="1" parent="KDQQx_HYrHywPaMqPA1d-1">
+          <mxGeometry x="10" y="25" width="170" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="KDQQx_HYrHywPaMqPA1d-2" value="Subnet" style="shape=mxgraph.ibm.box;prType=subnet;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=#E6F0E2;rounded=0;whiteSpace=wrap;html=1;strokeColor=#00882B;strokeWidth=1;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;" vertex="1" parent="KDQQx_HYrHywPaMqPA1d-4">
+          <mxGeometry x="15" y="50" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KDQQx_HYrHywPaMqPA1d-3" value="10.240.0.0/18" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KDQQx_HYrHywPaMqPA1d-2">
+          <mxGeometry x="15" y="45" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FXCXVvDxTQtwc45PbP1s-115" value="Icons" style="" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
