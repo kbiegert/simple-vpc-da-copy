@@ -30,7 +30,7 @@
                         "diagrams": [
                             {
                                 "diagram": {
-                                    "url": "https://github.ibm.com/kbiegert/simple-vpc-da-copy/blob/main/diagram/simple-vpc.drawio.svg",
+                                    "url": "https://raw.githubusercontent.com/kbiegert/simple-vpc-da-copy/refs/heads/main/diagram/simple-vpc.drawio.svg",
                                     "caption": "Simple VPC Copy",
                                     "type": "image/svg+xml"
                                 },
